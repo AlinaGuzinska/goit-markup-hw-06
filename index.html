@@ -412,11 +412,51 @@
       </div>
     </footer>
     
+
+
+
     <div class="modal-backdrop is-hidden" data-modal>
       <div class="modal-window">
         <button class="close-btn" type="button" data-modal-close>
           <svg class="close-icon"><use href="images/icons.svg#closing"></use></svg>
         </button>
+
+<form
+class="form-box"
+name="form-window"
+method="POST">
+<div class="modal-option">
+  <h3 class="modal-title"> Zostaw swoje dane w formularzu poniżej</h3>
+  <label for="user-email">Email </label>
+  <input class="modal-item" type="email" name="email" id="user_email" />
+
+          <label
+            for="phone_number"
+            >Telefon</label>
+         
+          <input
+            class="modal-item"
+            type="tel"
+            name="phone-number"
+            id="phone-number"
+          />
+
+          <label for="user-name">Imię</label>
+          <input class="modal-item" type="text" name="name">
+          <label for="comment"> Komentarz</label>
+<input class="modal-item" type="text" name="comment">
+ <textarea
+              type="text"
+              name="comment"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </div>
+</form>
+
+
+
+
+
       </div>
     </div>
 

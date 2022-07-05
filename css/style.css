@@ -609,3 +609,10 @@ footer address {
   height: 30px;
   cursor: pointer;
 }
+.form-box {
+  flex-direction: column;
+  display: flex;
+}
+.modal-option {
+  margin: 40px;
+}
