@@ -425,32 +425,41 @@
 class="form-box"
 name="form-window"
 method="POST">
-<div class="modal-option">
   <h3 class="modal-title"> Zostaw swoje dane w formularzu poniżej</h3>
-  <label for="user-email">Email </label>
-  <input class="modal-item" type="email" name="email" id="user_email" />
 
+  <label for="user-email">Email
+    <svg class="icon-modal-post icon-modal">
+              <use href="images/icons.svg#modal-mail"></use>
+            </svg>
+  <input class="modal-item" type="email" name="email" id="user_email" />
+</label>
           <label
             for="phone_number"
-            >Telefon</label>
-         
+            >Telefon
+            <svg class="icon-modal-phone icon-modal">
+              <use href="images/icons.svg#modal-phone"></use>
+            </svg>
+       
           <input
             class="modal-item"
             type="tel"
             name="phone-number"
             id="phone-number"
-          />
+          /></label>
 
-          <label for="user-name">Imię</label>
-          <input class="modal-item" type="text" name="name">
-          <label for="comment"> Komentarz</label>
-<input class="modal-item" type="text" name="comment">
+          <label for="user-name">Imię  <svg class="icon-modal-name icon-modal">
+              <use href="images/icons.svg#modal-name"></use>
+            </svg>
+          <input class="modal-item" type="text" name="user-name">
+        </label>
+          <label for="comment"> Komentarz
  <textarea
               type="text"
               name="comment"
               placeholder="Wprowadź tekst"
-            ></textarea>
-          </div>
+            ></textarea></label>
+        </form>
+        </div>
 </form>
 
 
