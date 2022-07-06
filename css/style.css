@@ -504,6 +504,7 @@ footer {
 }
 .footer-flex {
   display: flex;
+  align-items: baseline;
 }
 
 .joinus {
